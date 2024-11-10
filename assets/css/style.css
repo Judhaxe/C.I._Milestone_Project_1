@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Quattrocento:wght@400;700&family=Satisfy&display=swap');
 
 .container {
     max-width: 1140px;
@@ -21,6 +21,8 @@ body {
     font-weight: 300;
     color: #000000;
 }
+
+
 
 /* headings and logo */
 h1,
@@ -90,6 +92,11 @@ h2 {
     margin: 20px 0;
 }
 
+.welcome-underline {
+    font-family: 'satisfy', sans-serif;
+    font-size: 2.4rem;
+}
+
 .welcome p,
 .welcome h4 {
     text-align: center;
@@ -137,10 +144,17 @@ h2 {
     text-align: center;
 }
 
+
+
 .article-image-1 {
     float: right;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 10px;
+    border-left: #fb4737 solid 5px;
+    border-bottom: #fb4737 solid 5px;
+    border-top: #fb4737 solid 5px;
+    padding: 10px 0 10px 10px;
 }
 
 
@@ -153,8 +167,13 @@ h2 {
 
 .article-image-2 {
     float: left;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-left: 20px;
+    margin-bottom: 10px;
+    border-top: #078CC7 solid 5px;
+    border-right: #078CC7 solid 5px;
+    border-bottom: #078CC7 solid 5px;
+    padding: 10px 10px 10px 0
 }
 
 .article-image-2 img {
@@ -165,6 +184,7 @@ h2 {
 
 .article-content {
     overflow: hidden;
+
 }
 
 .news-text {
@@ -215,11 +235,16 @@ textarea {
 }
 
 .callout-text {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 50px;
+    font-family: 'Satisfy', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
     font-size: 1.5rem;
 }
+
+
+
+
 
 /* Style the label to display next to the inputs */
 label {
@@ -369,6 +394,14 @@ ul li {
         margin-top: 0;
     }
 
+    .welcome-underline {
+        font-size: 2rem;
+    }
+
+    .callout-text {
+        font-size: 1.3rem;
+    }
+
     #menu {
         margin-left: 0;
     }
@@ -385,6 +418,26 @@ ul li {
     .footer-contact li {
         font-size: 0.9rem;
         ;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .article-image-1 {
+        max-width: 45%;
+
+    }
+
+    .welcome-underline {
+        font-size: 1.4rem;
+    }
+
+    .article-image-2 {
+        max-width: 45%;
+    }
+
+    .callout-text {
+        line-height: 1.3rem;
+        margin: 20px;
     }
 }
 
