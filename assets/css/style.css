@@ -294,6 +294,39 @@ body {
 
 }
 
+.article-image-3 {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 0;
+    border-radius: 5px;
+}
+
+.article-image-3 img {
+    display: block;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+
+.article-image-4 {
+    float: right;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 0 10px 10px 0;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.article-image-4 img {
+    display: block;
+    max-width: 100%;
+    max-height: 200px;
+}
+
 .article-content {
     overflow: hidden;
 
@@ -521,8 +554,27 @@ input[type=submit]:hover {
     margin-bottom: 10px;
 }
 
+.backstage-contact {
+    padding-top: 0;
+    float: left;
+    width: 48%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+
+}
+
+
+
 .footer-contact li {
     font-weight: bold;
+    ;
+}
+
+.backstage-contact li {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
 
 .footer-contact a {
@@ -533,6 +585,17 @@ input[type=submit]:hover {
     margin: 2px;
     border-radius: 2px;
 }
+
+.backstage-contact a {
+    text-decoration: none;
+    color: #ffffff;
+
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
 
 .footer-social-media {
     float: right;
@@ -633,19 +696,23 @@ h6 {
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 900px) {
-    .article-image-1 {
+
+    .article-image-1,
+    .article-image-2 {
         max-width: 30%;
 
+    }
+
+    .article-image-3,
+    .article-image-4 {
+        max-width: 50%;
     }
 
     .callout-text {
         font-size: 1.3rem;
     }
 
-    .article-image-2 {
-        max-width: 30%;
 
-    }
 
     /* .footer {
         background-image: linear-gradient(90deg, #e59f0c 45%, #fb4737 10%, #fb4737 55%, #078CC7 45%);
@@ -714,6 +781,18 @@ h6 {
 
 
 
+    .article-image-4 {
+        max-width: 42%;
+    }
+
+    .backstage-contact {
+        width: 55%;
+    }
+
+    .backstage-contact a {
+        font-size: 0.9rem;
+    }
+
     #menu {
         margin-left: 0;
     }
@@ -734,7 +813,9 @@ h6 {
 }
 
 @media screen and (max-width: 500px) {
-    .article-image-1 {
+
+    .article-image-1,
+    .article-image-2 {
         max-width: 45%;
 
     }
@@ -751,8 +832,12 @@ h6 {
         font-size: 1.4rem;
     }
 
-    .article-image-2 {
-        max-width: 45%;
+    .article-image-4 {
+        display: none;
+    }
+
+    .backstage-contact {
+        width: 100%;
     }
 
 
@@ -762,6 +847,16 @@ h6 {
 @media screen and (max-width: 400px) {
     #logo {
         font-size: 1.4rem;
+    }
+
+    .article-image-3 {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        padding: 10px 10px 10px 0;
+        border-radius: 5px;
+        max-width: 90%;
     }
 
 
@@ -795,7 +890,7 @@ h6 {
 }
 
 @media screen and (max-width: 300px) {
-    .logo h1 {
+    .logo {
         font-size: 1.5rem;
     }
 
