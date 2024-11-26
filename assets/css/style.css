@@ -591,7 +591,8 @@ input[type=submit]:hover {
 
 .footer-contact li {
     font-weight: bold;
-    ;
+    color: #078CC7;
+
 }
 
 .backstage-contact li {
