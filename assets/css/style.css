@@ -3,7 +3,7 @@
 
 
 body {
-    font-family: 'Quattrocento+Sans', sans-serif;
+    font-family: 'Quattrocento', sans-serif;
     font-weight: 300;
     color: #000000;
 
@@ -20,7 +20,7 @@ body {
 .gallery-body {
     background-color: #ffffff;
     font-weight: 300;
-    font: 'Quattrocento+Sans', sans-serif;
+    font: 'Quattrocento', sans-serif;
     padding: 0;
 }
 
@@ -361,7 +361,7 @@ body {
 
 
 .callout-text {
-    font-family: 'Quattrocento+Sans', sans-serif;
+    font-family: 'Quattrocento', sans-serif;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 30px;
