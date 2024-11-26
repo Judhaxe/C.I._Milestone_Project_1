@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Quattrocento:wght@400;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy:wght@100..900&family=Quattrocento:wght@400;700&family=Satisfy&display=swap');
 
 
 
@@ -16,15 +16,6 @@ body {
     box-sizing: border-box;
 }
 
-@keyframe hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
 
 .gallery-body {
     background-color: #ffffff;
@@ -32,8 +23,6 @@ body {
     font: Quattrocento sans-serif;
     padding: 0;
 }
-
-
 
 
 
@@ -57,10 +46,7 @@ body {
 
 
 
-
-
 /* headings and logo */
-
 
 #logo {
     float: left;
@@ -79,7 +65,6 @@ body {
 }
 
 /* Code modified from https://codepen.io/ConStambo/pen/WxRQVq*/
-
 
 #menu li {
     float: left;
@@ -110,31 +95,17 @@ body {
 
 /*Hero image section*/
 
-
-
-
-
 .hero img {
     width: 100%;
     height: auto;
 }
 
 
-
-
 .g-container.gallery-container {
     background-color: #fff;
     color: #35373a;
-    /* min-height: 100vh; */
     padding: 30px 50px;
 }
-
-/* .gallery-container h1 {
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Quattrocento+sans', sans-serif;
-    font-weight: bold;
-} */
 
 .gallery-container p.page-description {
     text-align: center;
@@ -196,9 +167,6 @@ body {
     opacity: 1;
 }
 
-/* .baguetteBox-button {
-    background-color: transparent !important;
-} */
 
 
 .gallery-hero img {
@@ -227,10 +195,17 @@ body {
     margin: 20px 0;
 }
 
-/* Create four equal columns that floats next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
     float: left;
     width: 33%;
+    padding: 10px;
+    height: 300px;
+}
+
+.column1 {
+    float: left;
+    width: 34%;
     padding: 10px;
     height: 300px;
 }
@@ -257,9 +232,6 @@ body {
 }
 
 
-
-
-/* news section */
 .article {
     display: block;
     width: 100%;
@@ -361,8 +333,7 @@ body {
     margin: 0;
 }
 
-/*tips section*/
-/* modified from w3schools and defensivecss.dev*/
+
 .tip-row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -387,20 +358,7 @@ body {
     text-align: center;
 }
 
-/* Volunteer page*/
-/* modified from w3schools */
 
-/* Style inputs, select elements and textareas */
-/* input[type=text],
-[type=email],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-} */
 
 .callout-text {
     font-family: 'Quattrocento', sans-serif;
@@ -410,11 +368,6 @@ textarea {
     margin-bottom: 30px;
     font-size: 1.5rem;
 }
-
-
-
-
-
 
 
 .image-gallery {
@@ -449,10 +402,6 @@ textarea {
         columns: 1;
     }
 }
-
-
-
-
 
 
 .lightbox {
@@ -506,60 +455,6 @@ footer {
     text-align: center;
 }
 
-
-
-/* Style the label to display next to the inputs
-label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-}
-
-Style the submit button
-input[type=submit] {
-    background-color: #383D38;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-}
-
-input[type=submit]:hover {
-    background-color: #222726;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
-} */
-
-/* Style the container
-.volunteer-container {
-    border-radius: 5px;
-    background-color: #bcc2a1;
-    padding: 20px;
-} */
-
-/* Floating column for labels: 25% width
-.col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-} */
-
-/* Floating column for inputs: 75% width */
-/* .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-} */
-
-/* Clear floats after the columns */
-/* .volunteer-row:after {
-    content: "";
-    display: table;
-    clear: both;
-} */
-
-
-/*footer */
 .footer {
     background-image: linear-gradient(90deg, #e59f0c 33.33%, #fb4737 33.33%, #fb4737 66.66%, #078CC7 66.66%);
     background-size: 100% 100%;
@@ -586,7 +481,6 @@ input[type=submit]:hover {
     margin-bottom: 10px;
 
 }
-
 
 
 .footer-contact li {
@@ -656,8 +550,6 @@ ul li {
     margin-bottom: 10px;
 }
 
-
-
 .social-networks {
     display: flex;
     width: 240px;
@@ -673,8 +565,6 @@ ul li {
 
 }
 
-
-
 .social-circle {
     border-radius: 50%;
     width: 50px;
@@ -688,15 +578,6 @@ ul li {
     margin: 0 auto;
 }
 
-/* .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-} */
-
-
-
 h1,
 h2 {
     font-family: 'Quattrocento+Sans', sans-serif;
@@ -706,18 +587,8 @@ h2 {
 }
 
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 900;
-} */
 
-
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout  */
 
 @media screen and (max-width: 900px) {
 
@@ -735,18 +606,6 @@ h6 {
     .callout-text {
         font-size: 1.3rem;
     }
-
-
-
-    /* .footer {
-        background-image: linear-gradient(90deg, #e59f0c 45%, #fb4737 10%, #fb4737 55%, #078CC7 45%);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        margin: 0px;
-    } */
-
-
-
 
 }
 
@@ -931,6 +790,5 @@ h6 {
     #menu {
         letter-spacing: 1px;
     }
-
 
 }
