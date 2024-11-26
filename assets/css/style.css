@@ -20,7 +20,7 @@ body {
 .gallery-body {
     background-color: #ffffff;
     font-weight: 300;
-    font: Quattrocento sans-serif;
+    font: 'Quattrocento', sans-serif;
     padding: 0;
 }
 
@@ -501,7 +501,7 @@ footer {
     border: #000 solid 2px;
     padding: 2px;
     margin: 2px;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .backstage-contact a {
