@@ -135,7 +135,16 @@ The example Code Institute Read Me file, which this Read Me file is based on.
 
 ## Media
 
-All images were sourced from Unsplash - a site that provides images for free for commercial and non-commercial use.
+All images were sourced from ideogram.ai, that produce through a generative a.i. public licenses images.
+## Testing
+
+* [W3C Markup Validation Service](https://validator.w3.org/)
+* To validate HTML and CSS code.
+
+index.html:
+
+Error:
+
 
 ## Validator Testing
 
