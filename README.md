@@ -136,21 +136,50 @@ The example Code Institute Read Me file, which this Read Me file is based on.
 ## Media
 
 All images were sourced from ideogram.ai, that produce through a generative a.i. public licenses images.
-## Testing
+
+
+## Testing Results:
+
+
+
+W3C Validation Results:
 
 * [W3C Markup Validation Service](https://validator.w3.org/)
 * To validate HTML and CSS code.
 
 index.html:
 
-Error:
+![W3c-index](media/W3C-index.jpg)
+
+gallery.html:
+
+![W3c-gallery](media/W3C-gallery.jpg)
+
+about-us.html:
+
+![W3C-about-us](media/W3C-about-us.jpg)
+
+style.css:
+
+![Lighthouse](media/W3C-CSS.jpg)
 
 
-## Validator Testing
+Lighthouse results:
+
 
 Lighouse showed good scores.
 
-![Lighthouse](media/lighthouse.png)
+index.html:
+
+![Lighthouse](media/lighthouse-index.jpg)
+
+gallery.html:
+
+![Lighthouse](media/lighthouse-gallery.jpg)
+
+about-us.html:
+
+![Lighthouse](media/lighthouse-about-us.jpg)
 
 ## Future projects
 
