@@ -1,4 +1,4 @@
-About Sustainable Life
+About Opensky Festival
 ----------------------
 
 Opensky Festival is a website fully committed to promoting street art festival in the city of Lisbon. The website aims to encourage individuals to partecipate at any level in the great adventure of an outdoor museum scattered around the city; making arts and daily life mixing up in a positive vibe.
@@ -181,9 +181,55 @@ about-us.html:
 
 ![Lighthouse](media/lighthouse-about-us.jpg)
 
+## Testing User Stories from User Experience (UX) Section
+
+First Time Visitor Goals:
+
+As a First Time Visitor, I want to easily see what's the concept of the Festival, establish a contact and have follow-ups on this project in development:
+
+ - Upon entering the site, users will see the first a hero image
+ so the users can get an idea of the Festival vibe and branding.
+ - Just at the top navigation bar it is a link to the "About us" and "Gallery" page 
+ so users can easily find out about who we are and what vision we have.
+ (with future development there'll be possibility to see details of any date of the festival and of buying ticket and services)
+
+ 
+As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content and find what kind of interactions I can have with this developing project:
+
+ - The site is meant mainly to get a presence online for the ongoing process of the festival, to create curiosity and expressing the brand concept of Opensky
+ - After this the Users can find in the "About" us section an easy possibility to access more information in case they want donate to the festival, get infos to rent a stall or infos about working with us through 3 big and clear buttons .
+
+
+As a First Time Visitor, I want to have visual interaction with what the festival is like, through pictures to see if the art and vibe of the festival have any interest to me:
+
+ - Following the links to the gallery the users can access at several photos of the past edition of the festival, to make them-self an idea of what to expect from the Opensky Festival.
+ - At the top of each page the is a header with the logo and the navigation menu, wich mades easy to navigates through the three pages of the site, and give consistency to the website style.
+
+
+
+As a first time visitor I want to find the links to the social media to find more information about the festival, and some stories and reviews from other users to get to know the project. This is vital in a website for a Festival still organizing and with plenty of updates I want to be made aware of.
+
+ - at the bottom of the Visit us here the user can find links to social media, link to the Artistic direction mail, info telephone number and the location of the Festival in an external link to google maps
+
+As a returning Visitor, I want to find any new updates on the dates of the festival, and on the line-up of artist and events :
+
+ - In the footer at every page the users can find the links to our social, our email and telephone number for info.
+ - In this phase of on going works for the festival we have to relay on these channels mainly to create interest preparing a road to the 
+ festival and to allow people that want to get involved in different ways in the festival organization to get easily in contact with us
+ - (with future development there wil be a scroll-down area on the index page to rapresent the line-up of musician and street artist)
+ 
+ 
+As a returning Visitor, I want to find clearly the offer of tickets and packages for the festival:
+
+ - (with future development when the festival program will be clearer there will be a page dedicated just to the different tickets packages and to their easy one-click purchases)
+
+
+ 
+
+
 ## Future projects
 
-Looking ahead, the vision for the website includes incorporating user-friendly sharing features, allowing our users to effortlessly share content.
+Looking ahead, the vision for the website includes incorporating user-friendly sharing features, allowing to check real-time line-up of the events, allowing our users to effortlessly share content, allowing purchases and booking
 
 ## Credits
 
