@@ -164,7 +164,7 @@ style.css:
 ![Lighthouse](media/W3C-CSS.jpg)
 
 
-Lighthouse results:
+## Lighthouse results:
 
 
 Lighouse showed good scores.
